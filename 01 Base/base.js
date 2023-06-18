@@ -11,7 +11,7 @@ console.log(number2);
 number = number2;
 console.log(number);
 
-let primitiveTypes = {
+let object = {
     string: "Hello, world!",
     number: 42,
     boolean: true,
@@ -35,7 +35,7 @@ console.log(typeof isMarried, isMarried);
 console.log(typeof firstName, firstName);
 
 let nullVariable = null;
-let undefinedVariable;
+let undefinedVariable = undefined;
 
 console.log(typeof nullVariable, nullVariable);
 console.log(typeof undefinedVariable, undefinedVariable);
