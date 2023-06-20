@@ -81,13 +81,13 @@ switch (true) {
 
 let arr = [4, 5, 2, 1, 6, 5, 3, 5, 2, 5];
 
-let maxNumber = arr.sort((a, b) => a - b);
+const mostFrequentNumber = arr.sort((a, b) =>
+  arr.filter((el) => el === a).length - arr.filter((el) => el === b).length
+).pop();
 
-const date = arr.filter((x) => x === 5);
+arr = arr.filter((el) => el !== mostFrequentNumber);
 
-const res = arr.filter((x)  => x !== 5);
-
-console.log(res);
+console.log(arr)
 
 
 
