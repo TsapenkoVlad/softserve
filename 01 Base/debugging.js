@@ -1,4 +1,4 @@
-/* 
+
 function checkAge() {
     const firstName = prompt("Як Вас звати?")
     const age = +prompt("Скiльки Вам рокiв?")
@@ -37,11 +37,11 @@ function sumSliceArray(arr, first, second) {
  } 
  return arr[first - 1] + arr[second - 1]
 }
-console.log(sumSliceArray([5,3,5,8],3,5)); */
+console.log(sumSliceArray([5,3,5,8],3,5)); 
 
 
 
-/* class MonthException extends Error {
+class MonthException extends Error {
     constructor(message) {
       super(message);
       this.name = "MonthException";
@@ -73,7 +73,7 @@ console.log(sumSliceArray([5,3,5,8],3,5)); */
     } else {
       console.error(e); 
   }
-} */
+} 
 
 
 
