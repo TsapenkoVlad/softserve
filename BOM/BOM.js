@@ -40,13 +40,13 @@ linkChange.addEventListener('mouseout', () => {
     document.body.style.backgroundColor = 'white'
 })  
  */
-/* const peopleChange = () => {
+const peopleChange = () => {
     const dropdown = document.getElementById('people');
     const selectedOption = dropdown.options[dropdown.selectedIndex];
     dropdown.removeChild(selectedOption);
     console.log(selectedOption);
     console.log({...dropdown});
-} */
+} 
 /* let text = '';
 const p = document.getElementById('mouseOmMe')
 const button = document.querySelector('.button');
